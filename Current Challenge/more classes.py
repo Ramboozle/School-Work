@@ -15,8 +15,8 @@ class Monster:
         self.Health = Health
 
     def print_me(self):
-        print(self.id,self.Name,self.Origin,self.Description,self.Attack,self.Magical_Force,self.Magical_Defence,self.Defence,self.Intelligence,self.Health)
-
+        print(self.id, self.Name, self.Origin, self.Description, self.Attack, self.Magical_Force, self.Magical_Defence,
+              self.Defence, self.Intelligence, self.Health)
 
 def read_monsters():
         try:
@@ -41,4 +41,4 @@ read_monsters()
 
 print(monster_collecton)
 for i in monster_collecton:
-    i.print_me()
+    print()
