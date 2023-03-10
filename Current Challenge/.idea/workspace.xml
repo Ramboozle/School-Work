@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c11e4c26-5bf5-4b39-b68e-6cb8161133f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Linked List Exam Question.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Linked List.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OB02 Pattern.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Object Oriented new.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Queue and Dequeu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dad jokes Objects.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tester.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thingy.py" beforeDir="false" afterPath="$PROJECT_DIR$/thingy.py" afterDir="false" />
-    </list>
+    <list default="true" id="c11e4c26-5bf5-4b39-b68e-6cb8161133f6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -300,6 +290,7 @@
       <workItem from="1678418223075" duration="1064000" />
       <workItem from="1678419464682" duration="3000" />
       <workItem from="1678419469020" duration="1786000" />
+      <workItem from="1678421445727" duration="3000" />
     </task>
     <servers />
   </component>
