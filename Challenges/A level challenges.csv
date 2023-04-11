@@ -1,271 +1,242 @@
-﻿Code,Score,Challenge,Description,,
-,,,,,
-TU01,10,PYTHON PRINT,Learn how to do a Basic Print in Python,,
-TU02,10,INPUT & VARIABLES,Learn what a variable is and how to use it,,
-TU03,10,STRING HANDLING,Learn how to become a master of strings that print out exactly what you want. (No longer needed for iGCSE),,
-TU04,10,VARIABLE NUMBER MACHINE,"input, print, variables",,
-TU05,12,IF STATEMENTS,Handling simple IF Statements,,
-TU06,12,IFFY NUMBERS,Using the If function to sort out numbers,,
-TU07,12,SIMPLE LOOP,Using a FOR loop,,
-TU08,12,WHILE TRUE,Learn how to make loops based on conditionals with this love exercise....,,
-TU09,12,ESCAPE,Learn how to handle validation problems such as people entering text rather than numbers,,
-TU10,25,RANDOM,Learn how to choose random numbers and items,,
-TU11,50,WINDOWS,Learn how to use Windows with Python,,
-TU12,15,STRING 'EM UP,Learn how to use lists in Python and make strings,,
-TU13,15,LIST'S VITAL STATS,"Learn how to find the Len, min, max and average of a list",,
-TU14,15,STRING SLICING,Learn how to slice a string up to get at its parts. Incedibly useful in Python.,,
-TU15,15,ROUNDING,Learn how to round numbers in Python.,,
-TU16,25,F STRINGS,Learn how to format variables and lists into tables. New in Python 3.6,,
-TU17,25,MODULO11,Learn how to create a Checksum with Modulo 11,,
-TU18,30,READ A FILE,Learn how to read a file in Python,,
-TU19,30,WRITE A FILE,Learn how to write to a file in Python,,
-TU20,40,APPEND A FILE,Learn how to append to a file in Python,,
-TU21,40,RETRIEVE FROM MULTIPLE LISTS,Learn how to use user inputs to retrieve and update list items.,,
-TU22,40,TIMING ALGORITHMS,Learn how to time the speed of your algorithms,,
-TU23,25,PARITY CHECK,Learn how to make a simple parity check,,
-TT01,15,SAY HELLO,Learn how to make a window that says hello with Turtle,,
-TT02,25,UNDERLINE ANY LENGTH,Use Turtle to create input text in a window and then draw lines to match the text made.,,
-TT03,15,TURTLE SHAPES,Learn how to make shapes with turtle,,
-TT04,25,ANY SHAPE,Use turtle so that when you enter a number it creates a polygon with that many sides. ,,
-TT05,15,FILLER,Learn how to fill out your shapes in Turtle.,,
-TT06,25,HOUSE,Use your Turtle skills to draw a picture of house.,,
-TT07,25,BAR CHART,Make a Bar Chart with your Turtle skills,,
-TT08,15,SPEEDY TURTLE,"Learn how to make your turtle super speedy, count backwards & make grids.",,
-TT09,25,THE MAZE (EASY EDITION),Have fun solving our little maze!,,
-TT10,15,PROCEDURES,Learn how to start using procedures in your code,,
-GC01,50,RANDOM GUESSING GAME,Create a game where you guess a number from 1 to 100. The program should tell you if the number is higher or lower and check for non-valid input.,,
-GC02,25,12 TO 24 HOUR CLOCK,User inputs 12 hour clock and am or pm and you will convert it to the 24 hour equivalent.,,
-GC03,25,COUNTDOWN,Create a Countdown for NASA,,
-GC04,35,MARIO PYRAMID,User inputs a number. It then creates the appropriate sized pyramid. e.g. Pyramid Size 3,,
-GC05,50,DEMO ALGORITHMS,"Create demo code to demonstrate the ideas of: sequence, selection, repetition & variable.",,
-GC06,25,GREETINGS,Create a program to ask for somebody's name and age and then greet them.,,
-GC07,50,ATM DRAIN,"Pooja would like to withdraw X $US from an ATM. The cash machine will only accept the transaction if X is a multiple of 5, and Pooja's account balance has enough cash to perform the withdrawal transaction (including bank charges). For each successful withdrawal the bank charges 0.50 $US. Calculate Pooja's account balance after an attempted transaction.",,
-GC08,50,BODY MASS INDEX,BMI = weight / height^2 Where weight is taken in kilograms and height in meters. Where weight is taken in kilograms and height in meters.Underweight - BMI < 18.5. Normal weight - 18.5 <= BMI < 25.0. Obesity - 30.0 <= BMI  Overweight - 25.0 <= BMI < 30.0 ,,
-GC09,40,99 BOTTLES OF COLA,"99 bottles of cola on the wall. 99 bottles of cola, take one down, pass it around. 98 bottles of cola on the wall. 98 bottles of cola, take one down, pass it around.... A computer should be able to sing this song in no time at all...",,
-GC10,40,THE EVIL MATHS TEACHER,An evil maths teacher has locked his students in school until they manage to type the first 100 numbers of the Fibonacci sequence. Can you think of a quicker way to do it in Python?,,
-GC11,30,GOLDEN RATIO,"A painter wants to know what size to make his paintings, she's heard of this golden ratio, but doesn't know how to calculate it. Given a length can you calculate the height for a landscape.",,
-GC12,35,BROTHERLY SCREENTIME,Sadly there is only one PS4 in the house and so the children always argue as to how much time they get. Make a timer that givens an equal amount of time for each sibling. ,,
-GC13,50,ISBN CALCULATOR,A good example of a check digit is the ISBN 13 found on books. Can you make an ISBN calculator?,,
-GC14,25,TIMES TABLES,Primary teachers would love to have a Times Tables generator to copy and paste.,,
-GC15,50,NUMBER DIAMOND,Create number diamond shown in the example in 12 lines of code or less. Click on extra info for output.,,
-GC16,50,QWERTY DETECTOR,can you detect if the characters qwerty have been used together in a text?,,
-GC17,50,ISBN10,Create a checker for ISBN 10. Now you'll know why X is a good book!,,
-GC20,25,ROCKET BUILD UP,Check the spaceship. The spaceship needs 51 hours to charge up. You need to set an alarm to check for it. The time now is 2pm. What time should the alarm go off? ,,
-GC21,35,BOOK CH 3: TURTLES,Learn how to use the drawing module in Python. Read the page and complete up to exercise 6.,,
-GC22,25,DRUNK PIRATE,"Use the turtle module to draw the path of a drunk pirate. A drunk pirate makes a random turn and then takes 100 steps forward, makes another random turn, takes another 100 steps, turns another random amount, etc. ",,
-GC23,25,RUGBY CALCULATOR,"Create a scoring system for Rugby. (Rugby Union or league, your choice) This program should ask for the two team names and each Try, conversion & penalty kick should be recorded seperately, so that at the end of the game. Not only do we know the scores for the 2 teams but also how the points were scored.",,
-GC24,50,ARE YOU SURE THAT'S A NUMBER?,Write a small program to check that input is a float and generate an error if it is not.,,
-GC25,50,VENDING MACHINE,"Write a program to simulate a vending machine. You should be able to put coins in, select a product and then output the product and any change left over. You choose what your vending machine vends and the amount items cost. ",,
-GC26,35,DRUNKOMETER,Write a program that checks somebody is competent to operate machinery in the nuclear factory by insisting that they type the same phrase twice. You can choose the phrase. Make sure it's twisty!,,
-GC27,50,FIZZBUZZ,"STUDENT SUBMITTED: FizzBuzz is a children's game where you count from 1 to 20. Easy, right? Here's the catch: instead of saying numbers divisible by 3, say ""Fizz"". And instead of saying numbers divisible by 5, say ""Buzz"". For numbers divisible by both 3 and 5, say ""FizzBuzz"". ""1, 2, Fizz, 4, Buzz""...and so forth Let's start by printing out all of the numbers from 1 and 20. But don't type out the numbers in order—find a more awesome way! ",,
-GC29,50,LAZY REPORT WRITER,A lazy economics teacher wants to write his reports really quickly. Create a Random report writer with a list of generic comments. It should ask for the number of students and then generate a random comment for each student.,,
-GC32,50,STUDENT CREATED: THE PRISONERS DILEMMA,"The prisoner's dilemma is when the two prisoners are given the option to either confess or stay silent. If one of them stays silent and the other one confesses, the confessor is released from prison and the silent one is in prison for 20 years. If they both stay silent they are both in prison for only 1 year each. If they both confess then they are both in prison for 5 years each. Design a program that simulates this with the user being prisoner A and the computer being prisoner B. It must have the computer choose different outcomes and the player should have the choice to play again.",,
-GC33,50,STUDENT CREATED: DIET CALCULATOR,"The program should ask the user for input of the name of the food he/she has consumed and the amount of calories in the food then, it displays the amount of calories the user needs to consume to stay healthy for the day. The program should have a filter for invalid inputs and it should show the stats and reset when the user types ""end day"".",,
-GC34,25,STUDENT CREATED: ROMAN NUMERALS,Print the first 100 numbers in roman numerals.,,
-GC35,50,STUDENT CREATED: THINK YOU KNOW EACH OTHER?,Create a program that allows users to create a question about themselves and provide an answer for it.Then the program asks questions from the first user for the next user to answer.Record if the user answers the questions correctly and at the end print each users score.,,
-GC36,25,STUDENT CREATED: MULTIPLICATION GAME,The multiplication game only consist of the numbers 0 -12. ,,
-GC37,50,"BOOK CH 2: Variables, Expressions & Statements",Chapter 2 of the Think Like a Computer Scientist text book,,
-GC39,50,STUDENT CREATED: THE ROASTING MACHINE,"The Random Insult Generator. You have horrible comebacks, and just keep on getting roasted by everyone. This code will help you take your revenge. It must ask for the student’s name, and include that when roasting. There must be a random generator based upon a list. ",,
-GC40,30,MAX HEART RATE,"During exercise, you need to train at a pace and intensity where your heart rate increases, but not exceeds, 70% - 75% of your theoretical maximum heart rate (TMHR). Calculate this using the follow formula. MHR = 70 % x (225 minus your age).",,
-GC41,25,DIVIDE BY 3,Ask for a number and the computer will tell you if you can divide it exactly by 3.,,
-GC42,50,RANDOM NUMBER LIST,"Use the random function to create a LIST (array) of 50 random numbers that you can use to calculate the Minimum, Maximum and mean average.",,
-GC43,50,PHYSICS FORMULA CODE,"This is a physics application that has formulas that allow the user to solve for one of the variables in each formula. Perfect for Homework! Now because of physics formula, your homework will be complete very easily, you can do your homework more quickly and accurately than ever. ",,
-GC44,75,ESCAPE THE MAZE,"Designed by one of my year 9 Dragons coders, this code is an incredible challenge.",,
-GC45,35,VALIDATE A CHARACTER,Use validation to check that the user has entered a single character. (Pseudocode data type CHAR),,
-GC46,35,PROCEDURE MASTER,Use the exam board provided pseudocode to create a line drawing program.,,
-GC47,40,EMAIL CHECKER,"Validate an email entry. An email is separated into two parts by @ symbol. The length of the personal_info part may be up to 64 characters long and domain name may be up to 253 characters. The first part contains: Uppercase (A-Z) and lowercase (a-z) English letters, Digits (0-9) & Characters ! # $ % & ' * + - / = ? ^ _ ` { | } ~ The domain name [for example com, org, net, in, us, info] part contains letters, digits, hyphens, and dots.",,
-GC48,35,ONLY WHOLE NUMBERS,Validate input using a while loop so that only whole numbers are accepted.,,
-GC49,50,GAMESMASTER CHALLENGE: PRIMARY QUIZ MACHINE,"Create a tool to practice arithmetic functions (add, subtract, divide & multiply). It should allow the user to choose the amount of time before displaying the answer AND allow them to choose the maximum amount of digits to work with. (Thank you to Ved for this challenge)",,
-AS01,100,BUBBLE SORT,Write the Python required for a bubble sort. Test it with 9 randomly assigned numbers.,,
-AS02,100,LINEAR SEARCH,Write the Python required to do a linear search of Python in an array,,
-AS03,50,MIRROR TEXT,"A jokes shop company wants people to enter in text, but when they display it they want it to be spelt backwards.",,
-AS04,150,BCD TO HEX,"2 2 Easy, so why the 100 points... Because you are going to be doing it in Assembly.",,
-AS05,50,HANGMAN,Create a game of hangman with a wordlist.,,
-AS06,50,VOWEL COUNT,How many vowels does a word have? You are going to find out...,,
-AS07,100,CAESAR CIPHER,Create a Caesar Cipher encoder and decoder.,,
-AS08,50,ROCK PAPER SCISSORS,"Create a game of rock, paper, Scissors to play against the computer.",,
-AS09,250,FALLOUT 4 HACKING TERMINAL,"In the game Fallout 4 you are expected to crack codes. It is similar to hangman. The game includes a word list and tells you a likeness compared to the actual word. For it to be like the actual word not only must the letter be in the word, but also in the same position. To do this in Python you will need to type in the word and check it.",,
-AS10,100,NAUGHTY OR NICE,Work out which children are Naughty or Nice in this string based challenge.,,
-AS11,100,PASS PHRASE GENERATOR,Create a pass phrase generator that helps students to create secure passwords. Bonus 50 if it uses an external file,,
-AS12,500,PYTHON TO PSEUDOCODE,Create a program that takes in Python Code and shows what it might look like in Pseudocode. The program should take in a Python file and export a text file.,,
-AS13,50,RATIO ANALYSIS,Create a program to calculate common Ratio Analyses,,
-AS14,50,BRACKETS CHECKER,Create a program to make sure that the number of brackets is balanced.,,
-AS15,50,GUIDED: FUNCTIONS,Using functions in programs,,
-AS16,50,BOOK CH 4: FUNCTIONS WITH TURTLES,Using functions to make pretty patterns,,
-AS17,50,BOOK CH 5: BOOLEANS & CONDITIONS,Boolean algebra and conditionals,,
-AS18,50,BOOK CH 6: FRUITFUL FUNCTIONS,Functions that pass variables,,
-AS19,70,BOOK CH 7: ITERATION,This is a more advanced way to do loops and use them in functions,,
-AS20,65,BOOK CH 8: ADVANCED STRING USAGE,This is more advanced string manipulation,,
-AS21,50,BOOK CH 9: TUPLES,How to use Tuples,,
-AS22,50,BOOK CH 11: LIST HANDLING,How to use lists,,
-AS23,50,BOOK CH 13: FILE HANDLING,How to handle files,,
-AS24,50,PROJECT TIMELINE,Create a program to calculate the number of days a project is based on two dates entered. The project might be anything from 1 day to more than 1 year in length. (Use of datetime library encouraged.),,
-AS25,50,HISTOGRAMS,"Define a procedure histogram that takes a list of integers and prints a histogram to the screen. For example, histogram([4, 9, 7]) should print the following:",,
-AS26,100,WORD LENGTH CALCULATOR,"A rough guide as to how difficult a document is to read is to work out word lengths. Write a program that will calculate the average word length of a text stored in a file (i.e the sum of all the lengths of the word tokens in the text, divided by the number of word tokens).",,
-AS27,100,POKEMON WORD GAME,"A children’s game involves starting with a word in a particular category. Each participant in turn says a word, but that word must begin with the final letter of the previous word. Once a word has been given, it cannot be repeated. If an opponent cannot give a word in the category, they fall out of the game. Take a list of at least 70 words in a category and generate the sequence with the highest possible number of names where the subsequent name starts with the final letter of the preceding name. No name is to be repeated. You can use any list e.g. Pokemon characters",,
-AS28,100,GUIDED: SELECT BASICS,Learn more about the Select command,,
-AS29,100,GUIDED: SELECT NAME,Learn how to select a name,,
-AS30,100,GUIDED: SELECT FROM A TABLE,Learn how to use select from a table,,
-AS31,100,GUIDED: JOIN,Learn how to JOIN a table,,
-AS32,50,IMPROVED SECURITY,"It has been discovered that burglars are taking advantage of the fact that security guards start at the top of the building and wind their way down. To improve security in the building, guards now need to go to randomly assigned number. However every floor needs to be visited. Create a random generator that will make sure guards visit every floor once in a random order. Building managers should be able to choose the number of floors their building has.",,
-AS33,50,HEX & BINARY QUIZ,Create a Hex & Binary Quiz machine.,,
-AS34,50,GUIDED: MAKE A TREE USING RECURSION,You are going to create a tree using recursion. This is a very elegant way to make objects such as fractals.,,
-AS35,50,MAKE AN 8 BALL,Make a magic 8 ball using random functions & lists in Python,,
-AS36,50,BEGINNING & END,"Write a program that takes a list of numbers (for example, a = [5, 10, 15, 20, 25]) and makes a new list of only the first and last elements of the given list.",,
-AS37,100,Rövarspråket,"STUDENT SUBMITTED: This is a SUPER-SECRET language. Rövarspråket is not very complicated: you take an ordinary word and replace the consonants with the consonant doubled and with an ""o"" in between. So the consonant ""b"" is replaced by ""bob"", ""r"" is replaced with ""ror"", ""s"" is replaced with ""sos"", and so on. Vowels are left intact. It's made for Swedish, but it works just as well in English.",,
-AS38,50,MAKE YOUR OWN SERVER & DB,STUDENT SUBMITTED: Create your own server and DB with this tutorial,,
-AS39,100,X-FACTOR,"Use a 2d array to create a playlist system for 10 artists with 10 songs each. Your algorithm will create a random order for the songs, with the bands having a minimum distance of 2 songs. i.e. you can't play the same band again until 2 songs have passed.",,
-AS40,50,CLEAR THE SCREEN,Unlike most languages there isn't a Clear Screen procedure in Python. Can you make one? ,,
-AS41,100,PARITY BIT CHECKER GAME,Create a Parity Bit Checker Quiz that challenges students on odd and even bit checking. The computer should correct wrong answers.,,
-AS42,75,STUDENT CREATED: TURN BASED FIGHTING GAME,Create a turn based fighting game like Pokémon (doesn't have to be Pokémon) which remembers each characters health and individual moves. For extra points allow the player to choose different characters with unique moves. ,,
-AS43,75,STUDENT CREATED: HELP THE CIA FIND THE PASSWORD,Agent will input loads to text. The program will find the top 3 letters that occur the most and the top 3 letters that occur the least in the text and print them.,,
-AS44,100,STUDENT SUBMITTED: Garage Door Opener,"You just got a new garage door installed by the Automata™ Garage Door Company. You are having a lot of fun playing with the remote clicker, opening and closing the door, scaring your pets and annoying the neighbors. ",,
-AS45,50,MY PHONE SPACE,You would like to show people how much space images take up on their phone to help them decide how much space they need. This needs to take into different resolutions,,
-AS46,50,BOOK: CH 10 EVENT DRIVEN PROGRAMMING,Most programs and devices like a cellphone respond to events — things that happen.,,
-AS47,50,SQL: CREATE A DB,This tutorial shows you how to make a database of the 50 fastest cars using Python & SQL.,,
-AS48,50,SQL: PRINTING TABLES,This tutorial shows you how to print records from a SQL DB. ,,
-AS49,50,SQL: HOW TO SEARCH AND SELECT,This tutorial shows you how to search within SQL,,
-AS50,50,SQL: Adding and Deleting Records,This tutorial shows you how to add and delete database records ,,
-AS51,50,SQL: Updating a Record,This tutorial will show you how to modify records ,,
-AS52,50,BOOK: CH 12 MODULES,This tutorial will show you how to use Modules and make your own.,,
-AS53,100,RUN OFF,This challenge will use 2D Arrays to run a run-off election! Please read the extra information for more details.,,
-AS54,80,BOOK: CH14 LIST ALGORITHMS,This tutorial will show you list algorithms,,
-AS55,100,TURTLE: STARFIELD,Use Turtle module in Python to create a star field based on a seed. So you can regenerate the same star field anytime.,,
-AS56,50,TWOS COMPLEMENT,Create a quiz system for Twos Complement,,
-AS57,50,VALIDATE A BYTE,Create a Parity Byte entry system generator that uses even parity.,,
-AS58,100,BOXPLOT,"Use the turtle module to draw box plots. Ask user for minimum, maximum, upper quartile, lower quartile and median. Output a box plot.",,
-AS59,150,TICTACTOE,Make a game of tictactoe using a 2 dimensional Array,,
-AS60,125,CHECKERS BOARD,"Given two numbers nn and mm. Create a two-dimensional array of size (n×m)(n×m) and populate it with the characters ""."" and ""*"" in a checkerboard pattern. The top left corner should have the character ""."" .",,
-AS61,125,GO TO THE MAX,"Given two integers representing the rows and columns (m×n)(m×n), and subsequent mm rows of nn elements, find the index position of the maximum element and print two numbers representing the index (i×j)(i×j) or the row number and the column number. If there exist multiple such elements in different rows, print the one with smaller row number. If there multiple such elements occur on the same row, output the smallest column number.",,
-AS62,75,MUL TWO,Multiply a number by two in assembly.,,
-AS63,125,LOOPS IN ASSEMBLY,Learn to use loops in assembly to solve this puzzle.,,
-AS64,150,STRINGS IN ASSEMBLY,Take an input in Hex and output ASCII,,
-AS65,150,FIBONACCI RANDOMISER,Generate the fibonacci sequence in assembly.,,
-AS66,75,4 IN A ROW CHALLENGE,Complete this 4 in a row (Connect 4) code to make a game.,,
-AS67,200,TOP TRUMPS,"2 players get 5 randomly assigned cards with names, each card has a scoring value. If card played has a higher scoring value than the one that the opposition has played, the first player wins.",,
-AS68,250,UNO,Recreate the game UNO using Python so that the user can play against the computer. Using a text-based UI is A OKAY!,,
-AS69,150,ULTIMATE CAESAR CIPHER,"This is the royal deluxe of Caesar Ciphers. You must be able to take in a file, encode it, decode a file that's been coded up and have a cracking routine!",,
-AS70,250,BLACKJACK,Can you create a text version of this classic card game? You must remember that the A card can have multiple values!,,
-AS71,150,BRUTE FORCE PASSWORD ATTACK,"Create a program that generates a random, complex password, then make it run every possible outcome until it achieves the same value.",,
-AS72,200,SUBSTITUTION CIPHER,Can you create a substitution cipher which uses a random generated sequenced alphabet to encrypt a custom message?,,
-AS73,150,RANDOMLY GENERATED PASSWORD,"Can you create a randomly generated password based off a favorite color, place and animal? And also add special characters to the end of it.",,
-AS74,200,LOGIC GATES IN PYTHON,"Can you create the ""and"", ""or"", ""nor"", ""xor"" and ""not"" gates using only nand gates in python?",,
-AS75,50,DENARY TO BCD CONVERTER,Write a piece of code which asks the user to input a denary number and outputs the Binary Coded Decimal conversion of it.,,
-AS76,50,MINIMUM DIFFERENCE,Output the minimum differences between any two numbers in an array: ,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-SECRET,30,FINGER EXERCISES: STRING MANIPULATION,A quick fire exercise to check your understanding of string manipulation.,,
-AS78,50,"SMILE,SAD & SURPRISED","Create procedures to print ASCII art for a happy face, sad face & a surprised face. ",,
-AS79,60,MAKE IT LAUGH PROCEDURE,"Write a procedure make_it_laugh(string) to replace all vowels in an input string with ""haha"". Print the modified string after to verify your procedure has worked. ",,
-AS80,60,CIRCLE FUNCTIONS,Create 2 functions to calculate and return the area and the circumference of the circle,,
-AS81,50,NUMBER PROCEDURE,Create a procedure that outputs the sum and product of all the numbers in a list,,
-AS82,50,STRING REVERSAL FUNCTION,Create a function that returns the reverse of a string,,
-AS83,80,CARPET DESIGNER FUNCTION,Create a function to randomly design a carpet pattern based on a polygon. Take the length of a polygon side as a parameter. Shapes should be touching but not overlapping (i.e no hovering shapes).,,
-AS84,75,GAMESMASTER CREATED: GUESS THE CODE,"Given a string that has been Caesar ciphered, figure out a function that deciphers it outputs what it thinks will be the most likely ""natural"" string. (Thanks to Kkabir)",,
-AS85,100,IF ONLY I COULD HANDLE FILES,There is a male and a female version of the poem if in this folder Count how many times the word 'if' appears in each version and then append the count to the files stating which has more.,,
-AS86,100,STUDENT CREATED: PROMPTS PAL,Read the file promptspal and choose a random prompt to display. (Thanks to John Ling),,
-A201,200,BINARY TREE,"Make an object-oriented binary tree. You must be able to insert, find and delete items.",,
-A202,150,LINKED LIST,"Create a single-linked list program in Python. You must be able to insert, find and delete items.",,
-A203,100,INSERTION SORT,Write the Python required for an insertion sort. Test it with 9 randomly assigned numbers.,,
-A204,100,BOOK CH23: INHERITANCE,This guides you through the object-oriented concept of inheritance,,
-A205,150,HASH TABLE,"Create a hash table program in Python. You must be able to insert, find and delete items.",,
-A206,100,CLASSES CONCEPTS DEMO,"Create code that demonstrates the use of classes, inheritance, polymorphism and containment (aggregation)",,
-A207,150,LIST WORD SORT,Create a program where you can copy and paste a list of words. It will sort it alphabetically and save a file for loading later.,,
-A208,150,REVERSE POLISH NOTATION CALCULATOR,Make a reverse Polish notation calculator include operators such as: + - * / ^ sin tan cos pi (should use stacks or binary trees),,
-A209,150,GRAY CODE GENERATOR,Generate all the Gray codes for the given number of bits,,
-A210,100,object-oriented QUICK PROBLEM SET,Some simple object-oriented practice.,,
-A211,125,SANTA'S BIT PROBLEMS,Help Santa fix his bitwise problems.,,
-A212,125,HERO ESCAPE,Help our hero escape an alien planet,,
-A213,125,WAR CARD GAME,Create a simple Card Game using object-oriented programming,,
-A214,100,BOOK: CH 20 DICTIONARIES,Use dictionaries in Python,,
-A215,100,BOOK: CH 15 INTRO TO CLASSES,Beginners guide to using classes,,
-A216,150,ANAGRAM GAME,"An anagram is a type of word play, the result of rearranging the letters of a word or phrase to produce a new word or phrase, using all the original letters exactly once; e.g., orchestra = carthorse. Using the word list at https://gist.github.com/jamesabela/d956da0889582e5c5c8fc34ed72b97c3, write a program that finds the sets of words that share the same characters that contain the most words in them. i.e. enter a word and it finds its anagrams",,
-A217,150,GUIDED: PUBLIC KEY CRYPTOGRAPHY AND THE RSA CIPHER,Create your own asymmetric cipher,,
-A218,150,TRIANGULAR NUMBERS,"Triangular Numbers The nth term of the sequence of triangle numbers is given by, tn = ½n(n+1)",,
-A219,100,GUIDED: PET INHERITANCE,GUIDED: How to use inheritance in Python,,
-A220,300,GUIDED: object-oriented Farmville Style program,GUIDED: Takes you through object-oriented processes in a larger tutorial (Hence the points),,
-A221,150,OPERATION DUPLICATES REMOVAL,Write a program (function!) that takes a list and returns a new list that contains all the elements of the first list minus all the duplicates.,,
-A223,100,NEAT FROM 101 TO 1000,"Find all the ""neat"" 3 digit numbers beginning with 101 up to 1000. A ""neat"" number is a positive integer which is divisible by the sum of it's digits. The number 720 is a neat number because 7+0+2 = 9 which is a divisor of 720.",,
-A224,150,OBLIQUE AND DE-OBLIQUE,"Student submitted: The oblique function slices a matrix (2d array) into diagonals. The de-oblique function takes diagonals of a matrix, and reassembles the original rectangular one.",,
-A225,125,PLAYING WITH LIGHT SWITCHES,"Student submitted: When you were a little kid, was indiscriminately flicking light switches super fun? I know it was for me. Let's tap into that and try to recall that feeling with today's challenge. ",,
-A226,400,ROMAN NUMERALS CONVERSION,"Write a program to convert to (and from) roman numerals. So your program should be able to take the input of 27 and return XXVII, and take MCMLXXXI and return 1981. And of course any other values. The program must work for all numbers between the upper bound of 4000 and the lower bound of 0 (both non-inclusive) ",,
-A227,700,STUDENT SUBMITTED: POKER HANDS,On Project Euler there's a fun challenge to deal with Poker Hands. Be warned it's harder than it looks!,,
-A228,250,STUDENT SUBMITTED: ACKERMANN,Find out how to do a more complex recursive function.,,
-A229,100,IP ADDRESS GENERATOR,Create Private IP addresses for IPV4 & IPV6. You should generate a list for between 1-100 network devices. ,,
-A230,100,MOVING AVERAGE METHOD,Create a program to calculate the Moving Average Method for sales forecasts (Requires A2 Biz),,
-A231,100,CONTRIBUTION & ABSORPTION COSTING,Create a program to calculate Contribution and absorption costing (Requires A2 Biz),,
-A232,200,DECISION TREE,Create a program to design Decision Trees. (Can use Turtle),,
-A233,100,GUIDED: RECURSIVE FUNCTIONS,Shows how you can make recursive functions in Python,,
-A234,150,CREATE A BIT MANIPULATION SOLVER,Create a Bit Manipulation solver. This is part of the A2 Syllabus,,
-A235,200,STUDENT REQUESTED: N-QUEENS,"Given a chess board having N X N cells, you need to place N queens on the board in such a way that no queen attacks any other queen.",,
-A236,200,BOOK: CH 18 RECURSION,Learn about how recursion works with Python Turtle and Pygame,,
-A237,170,BOOK: CH 24 LINKED LISTS,Learn about Linked Lists in Python,,
-A238,170,BOOK: CH25 STACKS,Learn about how stacks work in a computer,,
-A239,170,BOOK: CH 26 Queues,Learn about how queues work in Python,,
-A240,200,BOOK: CH 27 Binary Trees,Learn about Binary Trees,,
-A241,170,BOOK: CH 16 MORE CLASS,Learn more about Classes,,
-A242,100,BOOK: CH 17 PYGAME,Learn the basics of Pygame ,,
-A243,100,BOOK: CH 19,Learn about Exceptions (Short chapter),,
-A244,170,BOOK: CH 21 EVEN COOLER OOP,Learn about more advanced OOP concepts such as polymorphism.,,
-A245,190,BOOK: CH22 COLLECTIONS,Learn about collections of objects,,
-A246,150,STUDENT CREATED: A NUMBER FROM BETWEEN 1 TO 111?,"I am thinking of a number from between 1 to 111. How many guesses will you need to find out exactly what number I am thinking of (after every guess, you will know if the number I am thinking of is higher or lower), and code a solution which will make the most efficients guesses in order to find the number. Binary search may come in handy...",,
-A247,100,STUDENT CREATED: HELP MEEE!!! (PERT CHART),Create a PERT chart for the company Housey that has to complete a project of a building construction. State the critical path and its time.,,
-A248,100,STUDENT CREATED: HELP MEEE!!! (PT. 2) (GANTT CHART),"The company Housey was not able to use the PERT chart for their housing project. Now they want a GANTT chart to help them with their project. Make a table with the following information:Task, Task duration, Task start date, task end date. Then make a GANTT chart on based on the table.",,
-A249,100,STUDENT CREATED: HOW MANY LIGHTS ARE THERE?,Learn how to create rules for your information,,
-A250,100,STUDENT CREATED: I WANT TO GET OFF MR BONES WILD RIDE,Learn about recursion in a declarative language and how to create recursion in Prolog.,,
-A251,100,STUDENT CREATED: INTRO TO PICKLE,Make a converter from binary to hex using pickle dictionaries,,
-A252,250,STUDENT CREATED: OBJECT ORIENTED PROGRAMMING SUPER CHALLENGE,Make your own RPG fightiing game. Only attempt this after finishing all OOP guided challenges.,,
-A253,100,STUDENT CREATED: PICKLE FILES,Use pickle to create a record with 100 lines initialised to dummy records and create a procedure to check for dummy records at a certain address. You should be able to write data to override dummy records using the pickle.dump() function.,,
-A254,150,STUDENT CREATED: RECORDS FOR A CAR DEALERSHIP,"Create the class CarRecord. The CarRecord constructor should include: VehicleID, Registration, DateOfRegistration, EngineSize and PurchasePrice. Then create an Array of objects of class CarRecord.",,
-A255,100,STUDENT CREATED: THERE IS AS YET INSUFFICIENT DATA FOR A MEANINGFUL ANSWER (PROLOG),Learn how to add information and search for information in Prolog.,,
-A256,100,STUDENT CREATED: TO SLAY A BEAST YOU MUST SEPERATE ITS...(PROLOG),Learn how to create lists in Prolog,,
-A257,100,STUDENT CREATED: WE NEED TO GO BACK... BACK TO THE..(PROLOG),Learn about instantiation and backtracing in Prolog and how to use it in Prolog,,
-A258,100,BEGINNERS PROLOG,Learn the basics of using Prolog,,
-A259,150,BINOMIAL THEOREM,Make a program that can expand a polynomial.,,
-A260,250,ENIGMA,Use python to make an enigma machine with 2 rotors and a reflector.,,
-A261,700,CHESS,Use OOP and pygame to make a game of chess. (2 player with validated moves),,
-A262,350,SUVAT TREES,Make a suvat calculator (use either binary trees or stacks).,,
-A263,150,GUIDED: OOP RPG CHARACTERS,"This simple guide introduces you to the Object Oriented Code you need for CAIE A-levels. It includes Attributes, Methods, Instances Inheritance, Polymorphism, Containment, Getter, Setter and private attributes.",,
-A264,100,ROCKET LAUNCH,"Create an instance of a planet class, and if I enter a planet's mass and radius, the program should output the escape velocity required for the rocket",,
-A265,150,TOWER OF HANOI,Use recursion to move all the disks to another tower (3 towers):,,
-A266,75,BIG O DISPLAY,Create a chart system to show common Big O algorithm growth types.,,
-A267,100,BULLET PROOF BINARY SEARCH,"Write a program that performs a binary search, but in the event it can't find an item it sorts the list and performs the search again. Only then does it report back that it can't find the item.",,
-A269,100,FILE HANDLER,Isn't it annoying when you get told that the file doesn't exist? You will create error handling to let the user know which directory they are in and what files are there.,,
-A270,100,GREATEST COMMON DIVISOR,"In mathematics, the greatest common divisor (GCD) of two or more integers, which are not all zero, is the largest positive integer that divides each of the integers. Create a recursive program to find the greatest common divisor.",,
-A271,125,GRAY CODE,Create a recursive Gray code.,,
-A272,100,RECURSIVE SUM DIGITS,Write a recursive program to get the sum of each digit in an integer. e.g. sumDigits(345) -> 12 or sumDigits(45) -> 9,,
-SECRET,50,Dictionary Interactive Mode,Go through our fun quiz to consolidate your dictionary skills. ,,
-OB01,100,DAD JOKES,Create Dad Joke Objects in this hilarious challenge! (See Extra Info for full details),,
-OB02,110,PATTERNS,Patterns are everywhere and in this you see how Turtle can be used with Objects (See Extra Info for full details),,
-OB03,125,WREXHAM AFC,Wrexham need you to help organise their players! (See Extra Info for full details),,
-OB04,125,CUTEST CATS,The Top 5 cutest cat breeds. (See Extra Info for full details),,
-OB05,125,EMPLOYEES,A simple employee database for email creation. (See Extra Info for full details),,
-EX01,100,2 LAYER NEURAL NETWORK,Make a neural network with 2 layers using the numpy library in python.,,
-EX02,450,GRAVITY SIMULATION,"Using particle objects and pygame, make a simulation of particles that attract each other and collide.",,
-EX03,50,GUI CALCULATOR,Make your own GUI calculator in this cute tutorial!,,
-EX04,150,MORSE CODE CONVERTER ,"Can you create a text to morse code converter with a menu, and also convert morse code to text",,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
+Code,Score,Challenge,Description,Completed
+TU01,10,PYTHON PRINT,Learn how to do a Basic Print in Python,True
+TU02,10,INPUT & VARIABLES,Learn what a variable is and how to use it,True
+TU03,10,STRING HANDLING,Learn how to become a master of strings that print out exactly what you want. (False longer needed for iGCSE),True
+TU04,10,VARIABLE NUMBER MACHINE,"input, print, variables",True
+TU05,12,IF STATEMENTS,Handling simple IF Statements,True
+TU06,12,IFFY NUMBERS,Using the If function to sort out numbers,True
+TU07,12,SIMPLE LOOP,Using a FOR loop,True
+TU08,12,WHILE TRUE,Learn how to make loops based on conditionals with this love exercise....,True
+TU09,12,ESCAPE,Learn how to handle validation problems such as people entering text rather than numbers,True
+TU10,25,RANDOM,Learn how to choose random numbers and items,True
+TU11,50,WINDOWS,Learn how to use Windows with Python,True
+TU12,15,STRING 'EM UP,Learn how to use lists in Python and make strings,True
+TU13,15,LIST'S VITAL STATS,"Learn how to find the Len, min, max and average of a list",True
+TU14,15,STRING SLICING,Learn how to slice a string up to get at its parts. Incedibly useful in Python.,True
+TU15,15,ROUNDING,Learn how to round numbers in Python.,True
+TU16,25,F STRINGS,Learn how to format variables and lists into tables. New in Python 3.6,True
+TU17,25,MODULO11,Learn how to create a Checksum with Modulo 11,True
+TU18,30,READ A FILE,Learn how to read a file in Python,True
+TU19,30,WRITE A FILE,Learn how to write to a file in Python,True
+TU20,40,APPEND A FILE,Learn how to append to a file in Python,True
+TU21,40,RETRIEVE FROM MULTIPLE LISTS,Learn how to use user inputs to retrieve and update list items.,Flase
+TU22,40,TIMING ALGORITHMS,Learn how to time the speed of your algorithms,True
+TU23,25,PARITY CHECK,Learn how to make a simple parity check,Flase
+TT01,15,SAY HELLO,Learn how to make a window that says hello with Turtle,Flase
+TT02,25,UNDERLINE ANY LENGTH,Use Turtle to create input text in a window and then draw lines to match the text made.,Flase
+TT03,15,TURTLE SHAPES,Learn how to make shapes with turtle,Flase
+TT04,25,ANY SHAPE,Use turtle so that when you enter a number it creates a polygon with that many sides. ,Flase
+TT05,15,FILLER,Learn how to fill out your shapes in Turtle.,Flase
+TT06,25,HOUSE,Use your Turtle skills to draw a picture of house.,Flase
+TT07,25,BAR CHART,Make a Bar Chart with your Turtle skills,Flase
+TT08,15,SPEEDY TURTLE,"Learn how to make your turtle super speedy, count backwards & make grids.",Flase
+TT09,25,THE MAZE (EASY EDITION),Have fun solving our little maze!,Flase
+TT10,15,PROCEDURES,Learn how to start using procedures in your code,Flase
+GC01,50,RANDOM GUESSING GAME,Create a game where you guess a number from 1 to 100. The program should tell you if the number is higher or lower and check for Falsen-valid input.,True
+GC02,25,12 TO 24 HOUR CLOCK,User inputs 12 hour clock and am or pm and you will convert it to the 24 hour equivalent.,Flase
+GC03,25,COUNTDOWN,Create a Countdown for NASA,Flase
+GC04,35,MARIO PYRAMID,User inputs a number. It then creates the appropriate sized pyramid. e.g. Pyramid Size 3,Flase
+GC05,50,DEMO ALGORITHMS,"Create demo code to demonstrate the ideas of: sequence, selection, repetition & variable.",Flase
+GC06,25,GREETINGS,Create a program to ask for somebody's name and age and then greet them.,Flase
+GC07,50,ATM DRAIN,"Pooja would like to withdraw X $US from an ATM. The cash machine will only accept the transaction if X is a multiple of 5, and Pooja's account balance has eFalseugh cash to perform the withdrawal transaction (including bank charges). For each successful withdrawal the bank charges 0.50 $US. Calculate Pooja's account balance after an attempted transaction.",Flase
+GC08,50,BODY MASS INDEX,BMI = weight / height^2 Where weight is taken in kilograms and height in meters. Where weight is taken in kilograms and height in meters.Underweight - BMI < 18.5. Falsermal weight - 18.5 <= BMI < 25.0. Obesity - 30.0 <= BMI  Overweight - 25.0 <= BMI < 30.0 ,Flase
+GC09,40,99 BOTTLES OF COLA,"99 bottles of cola on the wall. 99 bottles of cola, take one down, pass it around. 98 bottles of cola on the wall. 98 bottles of cola, take one down, pass it around.... A computer should be able to sing this song in False time at all...",Flase
+GC10,40,THE EVIL MATHS TEACHER,An evil maths teacher has locked his students in school until they manage to type the first 100 numbers of the Fibonacci sequence. Can you think of a quicker way to do it in Python?,Flase
+GC11,30,GOLDEN RATIO,"A painter wants to kFalsew what size to make his paintings, she's heard of this golden ratio, but doesn't kFalsew how to calculate it. Given a length can you calculate the height for a landscape.",Flase
+GC12,35,BROTHERLY SCREENTIME,Sadly there is only one PS4 in the house and so the children always argue as to how much time they get. Make a timer that givens an equal amount of time for each sibling. ,Flase
+GC13,50,ISBN CALCULATOR,A good example of a check digit is the ISBN 13 found on books. Can you make an ISBN calculator?,Flase
+GC14,25,TIMES TABLES,Primary teachers would love to have a Times Tables generator to copy and paste.,Flase
+GC15,50,NUMBER DIAMOND,Create number diamond shown in the example in 12 lines of code or less. Click on extra info for output.,Flase
+GC16,50,QWERTY DETECTOR,can you detect if the characters qwerty have been used together in a text?,Flase
+GC17,50,ISBN10,Create a checker for ISBN 10. Falsew you'll kFalsew why X is a good book!,Flase
+GC20,25,ROCKET BUILD UP,Check the spaceship. The spaceship needs 51 hours to charge up. You need to set an alarm to check for it. The time Falsew is 2pm. What time should the alarm go off? ,Flase
+GC21,35,BOOK CH 3: TURTLES,Learn how to use the drawing module in Python. Read the page and complete up to exercise 6.,Flase
+GC22,25,DRUNK PIRATE,"Use the turtle module to draw the path of a drunk pirate. A drunk pirate makes a random turn and then takes 100 steps forward, makes aFalsether random turn, takes aFalsether 100 steps, turns aFalsether random amount, etc. ",Flase
+GC23,25,RUGBY CALCULATOR,"Create a scoring system for Rugby. (Rugby Union or league, your choice) This program should ask for the two team names and each Try, conversion & penalty kick should be recorded seperately, so that at the end of the game. Falset only do we kFalsew the scores for the 2 teams but also how the points were scored.",Flase
+GC24,50,ARE YOU SURE THAT'S A NUMBER?,Write a small program to check that input is a float and generate an error if it is Falset.,Flase
+GC25,50,VENDING MACHINE,"Write a program to simulate a vending machine. You should be able to put coins in, select a product and then output the product and any change left over. You choose what your vending machine vends and the amount items cost. ",Flase
+GC26,35,DRUNKOMETER,Write a program that checks somebody is competent to operate machinery in the nuclear factory by insisting that they type the same phrase twice. You can choose the phrase. Make sure it's twisty!,Flase
+GC27,50,FIZZBUZZ,"STUDENT SUBMITTED: FizzBuzz is a children's game where you count from 1 to 20. Easy, right? Here's the catch: instead of saying numbers divisible by 3, say ""Fizz"". And instead of saying numbers divisible by 5, say ""Buzz"". For numbers divisible by both 3 and 5, say ""FizzBuzz"". ""1, 2, Fizz, 4, Buzz""...and so forth Let's start by printing out all of the numbers from 1 and 20. But don't type out the numbers in order—find a more awesome way! ",Flase
+GC29,50,LAZY REPORT WRITER,A lazy ecoFalsemics teacher wants to write his reports really quickly. Create a Random report writer with a list of generic comments. It should ask for the number of students and then generate a random comment for each student.,True
+GC32,50,STUDENT CREATED: THE PRISONERS DILEMMA,"The prisoner's dilemma is when the two prisoners are given the option to either confess or stay silent. If one of them stays silent and the other one confesses, the confessor is released from prison and the silent one is in prison for 20 years. If they both stay silent they are both in prison for only 1 year each. If they both confess then they are both in prison for 5 years each. Design a program that simulates this with the user being prisoner A and the computer being prisoner B. It must have the computer choose different outcomes and the player should have the choice to play again.",Flase
+GC33,50,STUDENT CREATED: DIET CALCULATOR,"The program should ask the user for input of the name of the food he/she has consumed and the amount of calories in the food then, it displays the amount of calories the user needs to consume to stay healthy for the day. The program should have a filter for invalid inputs and it should show the stats and reset when the user types ""end day"".",Flase
+GC34,25,STUDENT CREATED: ROMAN NUMERALS,Print the first 100 numbers in roman numerals.,Flase
+GC35,50,STUDENT CREATED: THINK YOU KFalseW EACH OTHER?,Create a program that allows users to create a question about themselves and provide an answer for it.Then the program asks questions from the first user for the next user to answer.Record if the user answers the questions correctly and at the end print each users score.,Flase
+GC36,25,STUDENT CREATED: MULTIPLICATION GAME,The multiplication game only consist of the numbers 0 -12. ,Flase
+GC37,50,"BOOK CH 2: Variables, Expressions & Statements",Chapter 2 of the Think Like a Computer Scientist text book,Flase
+GC39,50,STUDENT CREATED: THE ROASTING MACHINE,"The Random Insult Generator. You have horrible comebacks, and just keep on getting roasted by everyone. This code will help you take your revenge. It must ask for the student’s name, and include that when roasting. There must be a random generator based upon a list. ",True
+GC40,30,MAX HEART RATE,"During exercise, you need to train at a pace and intensity where your heart rate increases, but Falset exceeds, 70% - 75% of your theoretical maximum heart rate (TMHR). Calculate this using the follow formula. MHR = 70 % x (225 minus your age).",Flase
+GC41,25,DIVIDE BY 3,Ask for a number and the computer will tell you if you can divide it exactly by 3.,Flase
+GC42,50,RANDOM NUMBER LIST,"Use the random function to create a LIST (array) of 50 random numbers that you can use to calculate the Minimum, Maximum and mean average.",Flase
+GC43,50,PHYSICS FORMULA CODE,"This is a physics application that has formulas that allow the user to solve for one of the variables in each formula. Perfect for Homework! Falsew because of physics formula, your homework will be complete very easily, you can do your homework more quickly and accurately than ever. ",Flase
+GC44,75,ESCAPE THE MAZE,"Designed by one of my year 9 Dragons coders, this code is an incredible challenge.",Flase
+GC45,35,VALIDATE A CHARACTER,Use validation to check that the user has entered a single character. (Pseudocode data type CHAR),True
+GC46,35,PROCEDURE MASTER,Use the exam board provided pseudocode to create a line drawing program.,Flase
+GC47,40,EMAIL CHECKER,"Validate an email entry. An email is separated into two parts by @ symbol. The length of the personal_info part may be up to 64 characters long and domain name may be up to 253 characters. The first part contains: Uppercase (A-Z) and lowercase (a-z) English letters, Digits (0-9) & Characters ! # $ % & ' * + - / = ? ^ _ ` { | } ~ The domain name [for example com, org, net, in, us, info] part contains letters, digits, hyphens, and dots.",Flase
+GC48,35,ONLY WHOLE NUMBERS,Validate input using a while loop so that only whole numbers are accepted.,Flase
+GC49,50,GAMESMASTER CHALLENGE: PRIMARY QUIZ MACHINE,"Create a tool to practice arithmetic functions (add, subtract, divide & multiply). It should allow the user to choose the amount of time before displaying the answer AND allow them to choose the maximum amount of digits to work with. (Thank you to Ved for this challenge)",Flase
+AS01,100,BUBBLE SORT,Write the Python required for a bubble sort. Test it with 9 randomly assigned numbers.,True
+AS02,100,LINEAR SEARCH,Write the Python required to do a linear search of Python in an array,True
+AS03,50,MIRROR TEXT,"A jokes shop company wants people to enter in text, but when they display it they want it to be spelt backwards.",Flase
+AS04,150,BCD TO HEX,"2 2 Easy, so why the 100 points... Because you are going to be doing it in Assembly.",Flase
+AS05,50,HANGMAN,Create a game of hangman with a wordlist.,True
+AS06,50,VOWEL COUNT,How many vowels does a word have? You are going to find out...,Flase
+AS07,100,CAESAR CIPHER,Create a Caesar Cipher encoder and decoder.,Flase
+AS08,50,ROCK PAPER SCISSORS,"Create a game of rock, paper, Scissors to play against the computer.",Flase
+AS09,250,FALLOUT 4 HACKING TERMINAL,"In the game Fallout 4 you are expected to crack codes. It is similar to hangman. The game includes a word list and tells you a likeness compared to the actual word. For it to be like the actual word Falset only must the letter be in the word, but also in the same position. To do this in Python you will need to type in the word and check it.",Flase
+AS10,100,NAUGHTY OR NICE,Work out which children are Naughty or Nice in this string based challenge.,Flase
+AS11,100,PASS PHRASE GENERATOR,Create a pass phrase generator that helps students to create secure passwords. Bonus 50 if it uses an external file,Flase
+AS12,500,PYTHON TO PSEUDOCODE,Create a program that takes in Python Code and shows what it might look like in Pseudocode. The program should take in a Python file and export a text file.,Flase
+AS13,50,RATIO ANALYSIS,Create a program to calculate common Ratio Analyses,Flase
+AS14,50,BRACKETS CHECKER,Create a program to make sure that the number of brackets is balanced.,Flase
+AS15,50,GUIDED: FUNCTIONS,Using functions in programs,Flase
+AS16,50,BOOK CH 4: FUNCTIONS WITH TURTLES,Using functions to make pretty patterns,Flase
+AS17,50,BOOK CH 5: BOOLEANS & CONDITIONS,Boolean algebra and conditionals,Flase
+AS18,50,BOOK CH 6: FRUITFUL FUNCTIONS,Functions that pass variables,Flase
+AS19,70,BOOK CH 7: ITERATION,This is a more advanced way to do loops and use them in functions,Flase
+AS20,65,BOOK CH 8: ADVANCED STRING USAGE,This is more advanced string manipulation,Flase
+AS21,50,BOOK CH 9: TUPLES,How to use Tuples,Flase
+AS22,50,BOOK CH 11: LIST HANDLING,How to use lists,Flase
+AS23,50,BOOK CH 13: FILE HANDLING,How to handle files,Flase
+AS24,50,PROJECT TIMELINE,Create a program to calculate the number of days a project is based on two dates entered. The project might be anything from 1 day to more than 1 year in length. (Use of datetime library encouraged.),Flase
+AS25,50,HISTOGRAMS,"Define a procedure histogram that takes a list of integers and prints a histogram to the screen. For example, histogram([4, 9, 7]) should print the following:",True
+AS26,100,WORD LENGTH CALCULATOR,"A rough guide as to how difficult a document is to read is to work out word lengths. Write a program that will calculate the average word length of a text stored in a file (i.e the sum of all the lengths of the word tokens in the text, divided by the number of word tokens).",Flase
+AS27,100,POKEMON WORD GAME,"A children’s game involves starting with a word in a particular category. Each participant in turn says a word, but that word must begin with the final letter of the previous word. Once a word has been given, it canFalset be repeated. If an opponent canFalset give a word in the category, they fall out of the game. Take a list of at least 70 words in a category and generate the sequence with the highest possible number of names where the subsequent name starts with the final letter of the preceding name. False name is to be repeated. You can use any list e.g. Pokemon characters",Flase
+AS28,100,GUIDED: SELECT BASICS,Learn more about the Select command,Flase
+AS29,100,GUIDED: SELECT NAME,Learn how to select a name,Flase
+AS30,100,GUIDED: SELECT FROM A TABLE,Learn how to use select from a table,Flase
+AS31,100,GUIDED: JOIN,Learn how to JOIN a table,Flase
+AS32,50,IMPROVED SECURITY,"It has been discovered that burglars are taking advantage of the fact that security guards start at the top of the building and wind their way down. To improve security in the building, guards Falsew need to go to randomly assigned number. However every floor needs to be visited. Create a random generator that will make sure guards visit every floor once in a random order. Building managers should be able to choose the number of floors their building has.",Flase
+AS33,50,HEX & BINARY QUIZ,Create a Hex & Binary Quiz machine.,Flase
+AS34,50,GUIDED: MAKE A TREE USING RECURSION,You are going to create a tree using recursion. This is a very elegant way to make objects such as fractals.,Flase
+AS35,50,MAKE AN 8 BALL,Make a magic 8 ball using random functions & lists in Python,Flase
+AS36,50,BEGINNING & END,"Write a program that takes a list of numbers (for example, a = [5, 10, 15, 20, 25]) and makes a new list of only the first and last elements of the given list.",Flase
+AS37,100,Rövarspråket,"STUDENT SUBMITTED: This is a SUPER-SECRET language. Rövarspråket is Falset very complicated: you take an ordinary word and replace the consonants with the consonant doubled and with an ""o"" in between. So the consonant ""b"" is replaced by ""bob"", ""r"" is replaced with ""ror"", ""s"" is replaced with ""sos"", and so on. Vowels are left intact. It's made for Swedish, but it works just as well in English.",True
+AS38,50,MAKE YOUR OWN SERVER & DB,STUDENT SUBMITTED: Create your own server and DB with this tutorial,Flase
+AS39,100,X-FACTOR,"Use a 2d array to create a playlist system for 10 artists with 10 songs each. Your algorithm will create a random order for the songs, with the bands having a minimum distance of 2 songs. i.e. you can't play the same band again until 2 songs have passed.",Flase
+AS40,50,CLEAR THE SCREEN,Unlike most languages there isn't a Clear Screen procedure in Python. Can you make one? ,True
+AS41,100,PARITY BIT CHECKER GAME,Create a Parity Bit Checker Quiz that challenges students on odd and even bit checking. The computer should correct wrong answers.,Flase
+AS42,75,STUDENT CREATED: TURN BASED FIGHTING GAME,Create a turn based fighting game like Pokémon (doesn't have to be Pokémon) which remembers each characters health and individual moves. For extra points allow the player to choose different characters with unique moves. ,Flase
+AS43,75,STUDENT CREATED: HELP THE CIA FIND THE PASSWORD,Agent will input loads to text. The program will find the top 3 letters that occur the most and the top 3 letters that occur the least in the text and print them.,Flase
+AS44,100,STUDENT SUBMITTED: Garage Door Opener,"You just got a new garage door installed by the Automata™ Garage Door Company. You are having a lot of fun playing with the remote clicker, opening and closing the door, scaring your pets and anFalseying the neighbors. ",Flase
+AS45,50,MY PHONE SPACE,You would like to show people how much space images take up on their phone to help them decide how much space they need. This needs to take into different resolutions,Flase
+AS46,50,BOOK: CH 10 EVENT DRIVEN PROGRAMMING,Most programs and devices like a cellphone respond to events — things that happen.,Flase
+AS47,50,SQL: CREATE A DB,This tutorial shows you how to make a database of the 50 fastest cars using Python & SQL.,Flase
+AS48,50,SQL: PRINTING TABLES,This tutorial shows you how to print records from a SQL DB. ,Flase
+AS49,50,SQL: HOW TO SEARCH AND SELECT,This tutorial shows you how to search within SQL,Flase
+AS50,50,SQL: Adding and Deleting Records,This tutorial shows you how to add and delete database records ,Flase
+AS51,50,SQL: Updating a Record,This tutorial will show you how to modify records ,Flase
+AS52,50,BOOK: CH 12 MODULES,This tutorial will show you how to use Modules and make your own.,Flase
+AS53,100,RUN OFF,This challenge will use 2D Arrays to run a run-off election! Please read the extra information for more details.,Flase
+AS54,80,BOOK: CH14 LIST ALGORITHMS,This tutorial will show you list algorithms,Flase
+AS55,100,TURTLE: STARFIELD,Use Turtle module in Python to create a star field based on a seed. So you can regenerate the same star field anytime.,Flase
+AS56,50,TWOS COMPLEMENT,Create a quiz system for Twos Complement,Flase
+AS57,50,VALIDATE A BYTE,Create a Parity Byte entry system generator that uses even parity.,True
+AS58,100,BOXPLOT,"Use the turtle module to draw box plots. Ask user for minimum, maximum, upper quartile, lower quartile and median. Output a box plot.",Flase
+AS59,150,TICTACTOE,Make a game of tictactoe using a 2 dimensional Array,Flase
+AS60,125,CHECKERS BOARD,"Given two numbers nn and mm. Create a two-dimensional array of size (n×m)(n×m) and populate it with the characters ""."" and ""*"" in a checkerboard pattern. The top left corner should have the character ""."" .",Flase
+AS61,125,GO TO THE MAX,"Given two integers representing the rows and columns (m×n)(m×n), and subsequent mm rows of nn elements, find the index position of the maximum element and print two numbers representing the index (i×j)(i×j) or the row number and the column number. If there exist multiple such elements in different rows, print the one with smaller row number. If there multiple such elements occur on the same row, output the smallest column number.",Flase
+AS62,75,MUL TWO,Multiply a number by two in assembly.,Flase
+AS63,125,LOOPS IN ASSEMBLY,Learn to use loops in assembly to solve this puzzle.,Flase
+AS64,150,STRINGS IN ASSEMBLY,Take an input in Hex and output ASCII,Flase
+AS65,150,FIBONACCI RANDOMISER,Generate the fibonacci sequence in assembly.,Flase
+AS66,75,4 IN A ROW CHALLENGE,Complete this 4 in a row (Connect 4) code to make a game.,Flase
+AS67,200,TOP TRUMPS,"2 players get 5 randomly assigned cards with names, each card has a scoring value. If card played has a higher scoring value than the one that the opposition has played, the first player wins.",Flase
+AS68,250,UFalse,Recreate the game UFalse using Python so that the user can play against the computer. Using a text-based UI is A OKAY!,Flase
+AS69,150,ULTIMATE CAESAR CIPHER,"This is the royal deluxe of Caesar Ciphers. You must be able to take in a file, encode it, decode a file that's been coded up and have a cracking routine!",Flase
+AS70,250,BLACKJACK,Can you create a text version of this classic card game? You must remember that the A card can have multiple values!,Flase
+AS71,150,BRUTE FORCE PASSWORD ATTACK,"Create a program that generates a random, complex password, then make it run every possible outcome until it achieves the same value.",Flase
+AS72,200,SUBSTITUTION CIPHER,Can you create a substitution cipher which uses a random generated sequenced alphabet to encrypt a custom message?,Flase
+AS73,150,RANDOMLY GENERATED PASSWORD,"Can you create a randomly generated password based off a favorite color, place and animal? And also add special characters to the end of it.",Flase
+AS74,200,LOGIC GATES IN PYTHON,"Can you create the ""and"", ""or"", ""Falser"", ""xor"" and ""Falset"" gates using only nand gates in python?",Flase
+AS75,50,DENARY TO BCD CONVERTER,Write a piece of code which asks the user to input a denary number and outputs the Binary Coded Decimal conversion of it.,True
+AS76,50,MINIMUM DIFFERENCE,Output the minimum differences between any two numbers in an array: ,Flase
+SECRET,30,FINGER EXERCISES: STRING MANIPULATION,A quick fire exercise to check your understanding of string manipulation.,Flase
+AS78,50,"SMILE,SAD & SURPRISED","Create procedures to print ASCII art for a happy face, sad face & a surprised face. ",True
+AS79,60,MAKE IT LAUGH PROCEDURE,"Write a procedure make_it_laugh(string) to replace all vowels in an input string with ""haha"". Print the modified string after to verify your procedure has worked. ",Flase
+AS80,60,CIRCLE FUNCTIONS,Create 2 functions to calculate and return the area and the circumference of the circle,True
+AS81,50,NUMBER PROCEDURE,Create a procedure that outputs the sum and product of all the numbers in a list,Flase
+AS82,50,STRING REVERSAL FUNCTION,Create a function that returns the reverse of a string,True
+AS83,80,CARPET DESIGNER FUNCTION,Create a function to randomly design a carpet pattern based on a polygon. Take the length of a polygon side as a parameter. Shapes should be touching but Falset overlapping (i.e False hovering shapes).,Flase
+AS84,75,GAMESMASTER CREATED: GUESS THE CODE,"Given a string that has been Caesar ciphered, figure out a function that deciphers it outputs what it thinks will be the most likely ""natural"" string. (Thanks to Kkabir)",Flase
+AS85,100,IF ONLY I COULD HANDLE FILES,There is a male and a female version of the poem if in this folder Count how many times the word 'if' appears in each version and then append the count to the files stating which has more.,Flase
+AS86,100,STUDENT CREATED: PROMPTS PAL,Read the file promptspal and choose a random prompt to display. (Thanks to John Ling),Flase
+A201,200,BINARY TREE,"Make an object-oriented binary tree. You must be able to insert, find and delete items.",Flase
+A202,150,LINKED LIST,"Create a single-linked list program in Python. You must be able to insert, find and delete items.",Flase
+A203,100,INSERTION SORT,Write the Python required for an insertion sort. Test it with 9 randomly assigned numbers.,True
+A204,100,BOOK CH23: INHERITANCE,This guides you through the object-oriented concept of inheritance,Flase
+A205,150,HASH TABLE,"Create a hash table program in Python. You must be able to insert, find and delete items.",Flase
+A206,100,CLASSES CONCEPTS DEMO,"Create code that demonstrates the use of classes, inheritance, polymorphism and containment (aggregation)",True
+A207,150,LIST WORD SORT,Create a program where you can copy and paste a list of words. It will sort it alphabetically and save a file for loading later.,Flase
+A208,150,REVERSE POLISH FalseTATION CALCULATOR,Make a reverse Polish Falsetation calculator include operators such as: + - * / ^ sin tan cos pi (should use stacks or binary trees),Flase
+A209,150,GRAY CODE GENERATOR,Generate all the Gray codes for the given number of bits,Flase
+A210,100,object-oriented QUICK PROBLEM SET,Some simple object-oriented practice.,Flase
+A211,125,SANTA'S BIT PROBLEMS,Help Santa fix his bitwise problems.,Flase
+A212,125,HERO ESCAPE,Help our hero escape an alien planet,Flase
+A213,125,WAR CARD GAME,Create a simple Card Game using object-oriented programming,Flase
+A214,100,BOOK: CH 20 DICTIONARIES,Use dictionaries in Python,Flase
+A215,100,BOOK: CH 15 INTRO TO CLASSES,Beginners guide to using classes,Flase
+A216,150,ANAGRAM GAME,"An anagram is a type of word play, the result of rearranging the letters of a word or phrase to produce a new word or phrase, using all the original letters exactly once; e.g., orchestra = carthorse. Using the word list at https://gist.github.com/jamesabela/d956da0889582e5c5c8fc34ed72b97c3, write a program that finds the sets of words that share the same characters that contain the most words in them. i.e. enter a word and it finds its anagrams",Flase
+A217,150,GUIDED: PUBLIC KEY CRYPTOGRAPHY AND THE RSA CIPHER,Create your own asymmetric cipher,Flase
+A218,150,TRIANGULAR NUMBERS,"Triangular Numbers The nth term of the sequence of triangle numbers is given by, tn = ½n(n+1)",Flase
+A219,100,GUIDED: PET INHERITANCE,GUIDED: How to use inheritance in Python,Flase
+A220,300,GUIDED: object-oriented Farmville Style program,GUIDED: Takes you through object-oriented processes in a larger tutorial (Hence the points),Flase
+A221,150,OPERATION DUPLICATES REMOVAL,Write a program (function!) that takes a list and returns a new list that contains all the elements of the first list minus all the duplicates.,Flase
+A223,100,NEAT FROM 101 TO 1000,"Find all the ""neat"" 3 digit numbers beginning with 101 up to 1000. A ""neat"" number is a positive integer which is divisible by the sum of it's digits. The number 720 is a neat number because 7+0+2 = 9 which is a divisor of 720.",Flase
+A224,150,OBLIQUE AND DE-OBLIQUE,"Student submitted: The oblique function slices a matrix (2d array) into diagonals. The de-oblique function takes diagonals of a matrix, and reassembles the original rectangular one.",Flase
+A225,125,PLAYING WITH LIGHT SWITCHES,"Student submitted: When you were a little kid, was indiscriminately flicking light switches super fun? I kFalsew it was for me. Let's tap into that and try to recall that feeling with today's challenge. ",Flase
+A226,400,ROMAN NUMERALS CONVERSION,"Write a program to convert to (and from) roman numerals. So your program should be able to take the input of 27 and return XXVII, and take MCMLXXXI and return 1981. And of course any other values. The program must work for all numbers between the upper bound of 4000 and the lower bound of 0 (both Falsen-inclusive) ",Flase
+A227,700,STUDENT SUBMITTED: POKER HANDS,On Project Euler there's a fun challenge to deal with Poker Hands. Be warned it's harder than it looks!,Flase
+A228,250,STUDENT SUBMITTED: ACKERMANN,Find out how to do a more complex recursive function.,Flase
+A229,100,IP ADDRESS GENERATOR,Create Private IP addresses for IPV4 & IPV6. You should generate a list for between 1-100 network devices. ,Flase
+A230,100,MOVING AVERAGE METHOD,Create a program to calculate the Moving Average Method for sales forecasts (Requires A2 Biz),Flase
+A231,100,CONTRIBUTION & ABSORPTION COSTING,Create a program to calculate Contribution and absorption costing (Requires A2 Biz),Flase
+A232,200,DECISION TREE,Create a program to design Decision Trees. (Can use Turtle),Flase
+A233,100,GUIDED: RECURSIVE FUNCTIONS,Shows how you can make recursive functions in Python,Flase
+A234,150,CREATE A BIT MANIPULATION SOLVER,Create a Bit Manipulation solver. This is part of the A2 Syllabus,Flase
+A235,200,STUDENT REQUESTED: N-QUEENS,"Given a chess board having N X N cells, you need to place N queens on the board in such a way that False queen attacks any other queen.",Flase
+A236,200,BOOK: CH 18 RECURSION,Learn about how recursion works with Python Turtle and Pygame,Flase
+A237,170,BOOK: CH 24 LINKED LISTS,Learn about Linked Lists in Python,Flase
+A238,170,BOOK: CH25 STACKS,Learn about how stacks work in a computer,Flase
+A239,170,BOOK: CH 26 Queues,Learn about how queues work in Python,True
+A240,200,BOOK: CH 27 Binary Trees,Learn about Binary Trees,Flase
+A241,170,BOOK: CH 16 MORE CLASS,Learn more about Classes,Flase
+A242,100,BOOK: CH 17 PYGAME,Learn the basics of Pygame ,Flase
+A243,100,BOOK: CH 19,Learn about Exceptions (Short chapter),Flase
+A244,170,BOOK: CH 21 EVEN COOLER OOP,Learn about more advanced OOP concepts such as polymorphism.,Flase
+A245,190,BOOK: CH22 COLLECTIONS,Learn about collections of objects,Flase
+A246,150,STUDENT CREATED: A NUMBER FROM BETWEEN 1 TO 111?,"I am thinking of a number from between 1 to 111. How many guesses will you need to find out exactly what number I am thinking of (after every guess, you will kFalsew if the number I am thinking of is higher or lower), and code a solution which will make the most efficients guesses in order to find the number. Binary search may come in handy...",Flase
+A247,100,STUDENT CREATED: HELP MEEE!!! (PERT CHART),Create a PERT chart for the company Housey that has to complete a project of a building construction. State the critical path and its time.,Flase
+A248,100,STUDENT CREATED: HELP MEEE!!! (PT. 2) (GANTT CHART),"The company Housey was Falset able to use the PERT chart for their housing project. Falsew they want a GANTT chart to help them with their project. Make a table with the following information:Task, Task duration, Task start date, task end date. Then make a GANTT chart on based on the table.",Flase
+A249,100,STUDENT CREATED: HOW MANY LIGHTS ARE THERE?,Learn how to create rules for your information,Flase
+A250,100,STUDENT CREATED: I WANT TO GET OFF MR BONES WILD RIDE,Learn about recursion in a declarative language and how to create recursion in Prolog.,Flase
+A251,100,STUDENT CREATED: INTRO TO PICKLE,Make a converter from binary to hex using pickle dictionaries,Flase
+A252,250,STUDENT CREATED: OBJECT ORIENTED PROGRAMMING SUPER CHALLENGE,Make your own RPG fightiing game. Only attempt this after finishing all OOP guided challenges.,Flase
+A253,100,STUDENT CREATED: PICKLE FILES,Use pickle to create a record with 100 lines initialised to dummy records and create a procedure to check for dummy records at a certain address. You should be able to write data to override dummy records using the pickle.dump() function.,Flase
+A254,150,STUDENT CREATED: RECORDS FOR A CAR DEALERSHIP,"Create the class CarRecord. The CarRecord constructor should include: VehicleID, Registration, DateOfRegistration, EngineSize and PurchasePrice. Then create an Array of objects of class CarRecord.",Flase
+A255,100,STUDENT CREATED: THERE IS AS YET INSUFFICIENT DATA FOR A MEANINGFUL ANSWER (PROLOG),Learn how to add information and search for information in Prolog.,Flase
+A256,100,STUDENT CREATED: TO SLAY A BEAST YOU MUST SEPERATE ITS...(PROLOG),Learn how to create lists in Prolog,Flase
+A257,100,STUDENT CREATED: WE NEED TO GO BACK... BACK TO THE..(PROLOG),Learn about instantiation and backtracing in Prolog and how to use it in Prolog,Flase
+A258,100,BEGINNERS PROLOG,Learn the basics of using Prolog,Flase
+A259,150,BIFalseMIAL THEOREM,Make a program that can expand a polyFalsemial.,Flase
+A260,250,ENIGMA,Use python to make an enigma machine with 2 rotors and a reflector.,Flase
+A261,700,CHESS,Use OOP and pygame to make a game of chess. (2 player with validated moves),Flase
+A262,350,SUVAT TREES,Make a suvat calculator (use either binary trees or stacks).,Flase
+A263,150,GUIDED: OOP RPG CHARACTERS,"This simple guide introduces you to the Object Oriented Code you need for CAIE A-levels. It includes Attributes, Methods, Instances Inheritance, Polymorphism, Containment, Getter, Setter and private attributes.",Flase
+A264,100,ROCKET LAUNCH,"Create an instance of a planet class, and if I enter a planet's mass and radius, the program should output the escape velocity required for the rocket",Flase
+A265,150,TOWER OF HAFalseI,Use recursion to move all the disks to aFalsether tower (3 towers):,Flase
+A266,75,BIG O DISPLAY,Create a chart system to show common Big O algorithm growth types.,True
+A267,100,BULLET PROOF BINARY SEARCH,"Write a program that performs a binary search, but in the event it can't find an item it sorts the list and performs the search again. Only then does it report back that it can't find the item.",Flase
+A269,100,FILE HANDLER,Isn't it anFalseying when you get told that the file doesn't exist? You will create error handling to let the user kFalsew which directory they are in and what files are there.,Flase
+A270,100,GREATEST COMMON DIVISOR,"In mathematics, the greatest common divisor (GCD) of two or more integers, which are Falset all zero, is the largest positive integer that divides each of the integers. Create a recursive program to find the greatest common divisor.",Flase
+A271,125,GRAY CODE,Create a recursive Gray code.,Flase
+A272,100,RECURSIVE SUM DIGITS,Write a recursive program to get the sum of each digit in an integer. e.g. sumDigits(345) -> 12 or sumDigits(45) -> 9,Flase
+OB01,100,DAD JOKES,Create Dad Joke Objects in this hilarious challenge! (See Extra Info for full details),True
+OB02,110,PATTERNS,Patterns are everywhere and in this you see how Turtle can be used with Objects (See Extra Info for full details),True
+OB03,125,WREXHAM AFC,Wrexham need you to help organise their players! (See Extra Info for full details),True
+OB04,125,CUTEST CATS,The Top 5 cutest cat breeds. (See Extra Info for full details),True
+OB05,125,EMPLOYEES,A simple employee database for email creation. (See Extra Info for full details),True
+EX01,100,2 LAYER NEURAL NETWORK,Make a neural network with 2 layers using the numpy library in python.,Flase
+EX02,450,GRAVITY SIMULATION,"Using particle objects and pygame, make a simulation of particles that attract each other and collide.",Flase
+EX03,50,GUI CALCULATOR,Make your own GUI calculator in this cute tutorial!,Flase
+EX04,150,MORSE CODE CONVERTER ,"Can you create a text to morse code converter with a menu, and also convert morse code to text",True
