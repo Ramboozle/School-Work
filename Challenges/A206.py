@@ -1,4 +1,5 @@
-#Classes
+#A206 CLASSES CONCEPTS DEMO
+#Create code that demonstrates the use of classes, inheritance, polymorphism and containment (aggregation)
 class Person:
   def __init__(self, name, age):
     self.name = name

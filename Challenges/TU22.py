@@ -1,6 +1,9 @@
 import datetime
 FOX = 'the lazy fox jumped over the brown dog'
 print('type out "',FOX,'"',"then press enter as soon as youre done") #prints whats in the FOX variable
+print('press enter to start')
+starter = input() #waits for the user to press enter
+print('GO!')
 start = datetime.datetime.now()  # Starts the timer
 userin = input()
 timer = datetime.datetime.now() - start #caluclates the time it took to write the sentence

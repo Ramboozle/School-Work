@@ -46,7 +46,7 @@ with open(outFileDir, 'w') as outFile:
                 writer.writerow([challengeCode, challengeScore, challengeName, challengeDescription, 'True'])
                 #print(challengeCode, 'True')
             else:
-                writer.writerow([challengeCode, challengeScore, challengeName, challengeDescription, 'Flase'])
+                writer.writerow([challengeCode, challengeScore, challengeName, challengeDescription, 'False'])
                 #print(challengeCode, 'False')
 
 os.remove(inFileDir)
